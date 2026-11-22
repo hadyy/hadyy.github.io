@@ -1,0 +1,6 @@
+title: hadyy
+description: A personal notebook
+url: "https://hadyy.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
