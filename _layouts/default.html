@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | hadyy</title>
+  <style>
+    body {
+      max-width: 680px;
+      margin: 60px auto;
+      padding: 0 24px;
+      font: 18px/1.8 system-ui, sans-serif;
+      color: #222;
+    }
+    a { color: inherit; }
+    main[lang="ar"] {
+      direction: rtl;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <header><a href="/">hadyy.</a></header>
+  <hr>
+  <main lang="{{ page.lang | default: 'en' }}">
+    {{ content }}
+  </main>
+</body>
+</html>
+
